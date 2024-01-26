@@ -11,7 +11,7 @@ aliases: ["/en/tutorials/rocketpool"]
 
 This page will describe how to stake ETH with Rocket Pool on your Avado.
 
-Although this Avado packages makes it very easy to run a Rocket Pool node on your Avado, make sure you are up for the task. Make sure you read <https://docs.rocketpool.net/guides/node/responsibilities.html> to know your risks and resposabilities.
+Although this Avado packages makes it very easy to run a Rocket Pool node on your Avado, make sure you are up to the task. Make sure you read <https://docs.rocketpool.net/guides/node/responsibilities.html> to know your risks and your ability 
 
 ## Rocket Pool
 
@@ -24,7 +24,7 @@ https://rocketpool.net/
 Tutorial about Rocket Pool 
 https://medium.com/rocket-pool/rocket-pool-staking-protocol-part-1-8be4859e5fbd
 
-## Prerequisites
+'+## Prerequisites'
 
 * **Ethereum execution client (Geth)**: Make sure the Ethereum exectution client package (Geth) is <b>installed</b> and <b>synced</b>
 * **Ethereum Consensus client (Prysm or Teku)**: Make sure the Ethereum Consensus client package is <b>installed</b> and <b>synced</b>
@@ -77,8 +77,7 @@ After you verified the information on the Welcome page, click **Start setup** to
 Enter a **secure** password (twice) and click **Init wallet**.
 
 Next download a backup of your wallet.
-
-### Fund wallet
+Fund wallet
 
 {{< hint type=tip >}}
 You may want to wait for a quiet period with lower gas fees on the Ethereum network for the following steps. It will greatly reduce the total gas cost of calling smart contracts in the following steps.  
@@ -97,7 +96,7 @@ Hit "Refresh balances" to update your balance of crypto sent to your address.
 
 You will advance to the next step once the necessary funds have arrived in your wallet.
 
-### Register node
+# Register node
 
 To register your node on the Rocketpool smart contracts, click **Register Node**,  confirm and wait for the transaction to finish.
 
@@ -113,7 +112,7 @@ Check your withdrawal address at least twice. If you make a mistake here, you ca
 
 Next, you need to set a withdrawal address for your node. This must be an address you control (preferably a cold wallet, but Metamask wallet also works). All of your RPL checkpoint rewards, your staked RPL, and your Beacon Chain ETH will be sent there when you claim your checkpoint rewards or exit your validator.
 
-Enter your (cold) wallet address and, after you validated the address twice (**important!**), click **Register Node** and confirm.
+Enter your  wallet address and, after you validated the address twice (**important!**), click **Register Node** and confirm.
 
 ### Join smoothing pool and initialize Fee distributor
 
@@ -207,7 +206,7 @@ If you change this address, an error banner will appear on top of the Rocket Poo
 
 {{< figure src="fee_recipient_address.png" >}}
 
-Click the **Correct the fee recipient address** button to correct the fee recipient address.
+Click on the **Correct the fee recipient address** button to correct the fee recipient address.
 
 For Teku, you can edit the fee recipient address on the settings if plan to only run minipool validators. If you mixed solo staking nodes and rocket pool nodes, you can set the fee recipient address per validator in the validator list.
 
